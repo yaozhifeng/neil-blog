@@ -4,4 +4,6 @@
 
 This is me.
 
-And this is my blog.
+![me](/media/me.jpg)
+
+
