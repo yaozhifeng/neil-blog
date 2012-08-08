@@ -31,6 +31,7 @@ theme = 'default'
 # theme variables are defined by theme creator
 theme_variables = {
     'disqus': 'neil-blog',
+    'analytics': 'UA-17763569-1',
 
     'navigation': [
         ('Home', '/'),
