@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Neil's Blog</title>
+    <link href="/yaozhifeng.net/life/feed.xml" rel="self" />
+    <link href="/yaozhifeng.net/life/" />
+    <updated>2012-08-08T09:45:54+08:00</updated>
+    <id>/yaozhifeng.net/life/</id>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <author><name>Neil</name><uri>http://yaozhifeng.net</uri></author>
+        <link href="yaozhifeng.net/2012/hello-world.html"/>
+        <published>2012-08-07T00:00:00+08:00</published>
+        <updated>2012-08-08T09:45:54+08:00</updated>
+        <id>yaozhifeng.net/2012/hello-world.html</id>
+        <category scheme="/yaozhifeng.net/tag/life/" term="life" label="life" />
+        <category scheme="/yaozhifeng.net/tag/blog/" term="blog" label="blog" />
+        <category scheme="/yaozhifeng.net/tag/vim/" term="vim" label="vim" />
+        <content type="html" xml:base="yaozhifeng.net" xml:lang="en">
+            <![CDATA[ <p>Hello world. This is my first post with vim.</p>
+]]>
+        </content>
+    </entry>
+</feed>
