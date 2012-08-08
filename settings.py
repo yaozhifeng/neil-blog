@@ -40,6 +40,7 @@ theme_variables = {
     'elsewhere': [
         ('GitHub', 'https://github.com/yaozhifeng'),
         ('Twitter', 'https://twitter.com/yaozhifeng'),
+        ('Douban', 'http://www.douban.com/people/yaozhifeng/'),
     ],
 }
 
