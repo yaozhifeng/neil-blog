@@ -3,7 +3,7 @@
 
 site = {
     "name": "Neil's Blog",
-    "url": "yaozhifeng.net",
+    "url": "http://yaozhifeng.net",
     # "prefix": "blog",
 }
 
@@ -34,8 +34,8 @@ theme_variables = {
     'analytics': 'UA-17763569-1',
 
     'navigation': [
-        ('Home', '/'),
-        ('About', '/about/'),
+        ('Blog', '/archive.html'),
+        ('About', '/about.html'),
     ],
     'elsewhere': [
         ('GitHub', 'https://github.com/yaozhifeng'),
@@ -50,7 +50,10 @@ theme_variables = {
 
 # http://liquidluck.readthedocs.org/en/latest/config.html#writers
 # writers = {}
-# writers_variables = {}
+writers_variables = {
+    'archive_output': 'archive.html',
+}
+
 
 # template_variables = {}
 # template_filters = {}
