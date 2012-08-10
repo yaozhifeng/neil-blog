@@ -12,7 +12,7 @@ output = 'deploy'
 static_output = 'deploy/static'
 static_prefix = '/static/'
 
-permalink = '{{date.year}}/{{filename}}.html'
+permalink = '{{date.year}}/{{filename}}/'
 perpage = 30
 feedcount = 20
 timezone = "+08:00"
@@ -34,8 +34,8 @@ theme_variables = {
     'analytics': 'UA-17763569-1',
 
     'navigation': [
-        ('Blog', '/archive.html'),
-        ('About', '/about.html'),
+        ('Blog', '/archive/'),
+        ('About', '/about/'),
     ],
     'elsewhere': [
         ('GitHub', 'https://github.com/yaozhifeng'),
