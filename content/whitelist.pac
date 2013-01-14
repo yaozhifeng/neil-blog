@@ -4,7 +4,7 @@
  * Special thanks to @Paveo
  */
 function FindProxyForURL(url, host) {
-    var PROXY = "SOCKS5 127.0.0.1:7070";
+    var PROXY = "SOCKS 127.0.0.1:7070";
     var DEFAULT = "DIRECT";
     
     var parts = host.split('.'),
